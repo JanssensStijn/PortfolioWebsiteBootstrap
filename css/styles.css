@@ -1,0 +1,75 @@
+/*theme colors -- R G B Brightness
+blue: #3F6F8C  -- 63, 111, 140, 55
+gray: #97A3A6 -- 151, 163, 166, 65
+light gray: #D2D8D9 -- 210, 216, 217, 85
+orange: #A66038 -- 166, 96, 56, 65
+red: #732922 -- 115, 41, 34, 45
+*/
+html{
+  --themeBlue: #3F6F8C;
+  --themeGray: #97A3A6;
+  --themeRed: #732922;
+  --themeLightGray: #D2D8D9;
+  --themeOrange: #A66038;
+  --themeTextLight: white;
+  --themeTextDark: black;
+}
+
+body,html{
+  background-color: var(--themeBlue);
+}
+
+.navbar-brand img{
+  width: 120px;
+}
+
+.bannerimage{
+  background-image: url("../img/PSA.png");
+  background-size: cover;
+  background-position: center center;
+  height:200px;
+}
+
+.bannerimage p{
+  color: var(--themeLightGray);
+  font-size:50px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+h1{
+  color: var(--themeLightGray);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+h2{
+  color: var(--themeLightGray);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+p{
+  color: var(--themeLightGray);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px
+}
+
+.profilePicture{
+  max-height: 250px;
+}
+
+.footer{
+  
+  background-color: var(--themeLightGray);
+}
+.footer img{
+  height: 58px;
+  width: 58px;
+}
+
+.AboutMeText{
+  text-align: left;
+  float:left;
+}
