@@ -53,7 +53,7 @@ h2{
 }
 
 p{
-  color: var(--themeLightGray);
+  color: black;
   font-family:'Courier New', Courier, monospace;
   font-size: 20px
 }
@@ -65,20 +65,13 @@ p{
   height: 58px;
   width: 58px;
 }
-
-.row{
-  padding-top:1rem;
-  padding-bottom: 1rem;
+.card{
+  width: 18rem; 
+  margin: 1rem;
+  background-color: var(--themeGray);
 }
-.notLastItem{
-  border-bottom: 2px solid var(--themeGray);
-}
-
-.titel{
-  text-align: center;
-  align-content: center;
-}
-
-.info{
-  text-align: left;
+.card img{
+  margin-top: 12px;
+  /*max-height: 150px;*/
+  width:100%
 }
